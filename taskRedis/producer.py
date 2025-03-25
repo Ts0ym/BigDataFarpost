@@ -12,8 +12,8 @@ while True:
     message = ''.join(random.choices(string.ascii_letters + string.digits, k=10))
     
     # Сериализация словаря в JSON-строку
-    string_message = (str)({'message': message})
+    json_message = json.dumps({'message': message})
     
-    r.lpush('messages', string_message)  # Отправка строки, а не словаря
+    r.lpush('messages', json_message)  # Отправка строки, а не словаря
     print(f"Sent: {message}")
     time.sleep(60)  # Ждать 1 минуту
