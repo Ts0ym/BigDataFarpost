@@ -16,4 +16,4 @@ while True:
     
     r.lpush('messages', json_message)  # Отправка строки, а не словаря
     print(f"Sent: {message}")
-    time.sleep(60)  # Ждать 1 минуту
+    time.sleep(10)  # Ждать 1 минуту
