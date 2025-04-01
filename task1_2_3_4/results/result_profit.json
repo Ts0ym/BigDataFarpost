@@ -1,0 +1,52 @@
+[
+  {
+    "code": "AXP",
+    "name": "American Express",
+    "potential profit": 4.14
+  },
+  {
+    "code": "ACN",
+    "name": "Accenture",
+    "potential profit": 4.02
+  },
+  {
+    "code": "AES",
+    "name": "AES",
+    "potential profit": 4.0
+  },
+  {
+    "code": "AMD",
+    "name": "AMD",
+    "potential profit": 3.89
+  },
+  {
+    "code": "ALB",
+    "name": "Albemarle",
+    "potential profit": 3.85
+  },
+  {
+    "code": "MMM",
+    "name": "3M",
+    "potential profit": 3.72
+  },
+  {
+    "code": "AIG",
+    "name": "American International Group",
+    "potential profit": 3.66
+  },
+  {
+    "code": "AMP",
+    "name": "Ameriprise Financial",
+    "potential profit": 3.65
+  },
+  {
+    "code": "ALGN",
+    "name": "Align Technology",
+    "potential profit": 3.57
+  },
+  {
+    "code": "ABNB",
+    "name": "Airbnb",
+    "potential profit": 3.5
+  }
+]
