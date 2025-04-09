@@ -1,0 +1,31 @@
+version: '3.8'
+services:
+  db:
+    image: mysql:latest
+    container_name: forum_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: forum_logs
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./mysql_data:/var/lib/mysql
+    networks:
+      - etl-net
+
+  init:
+    image: python:3.9
+    container_name: db_init
+    depends_on:
+      - db
+    volumes:
+      - ./:/app
+    working_dir: /app
+    command: >
+      bash -c "sleep 30 && pip install -r requirements.txt && python3 generate_data.py && python3 init_db.py"
+    networks:
+      - etl-net
+
+networks:
+  etl-net:
+    driver: bridge

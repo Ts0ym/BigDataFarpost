@@ -1,0 +1,398 @@
+{
+  "users": [
+    {
+      "day": "2023-01-01",
+      "new_accounts": 5
+    },
+    {
+      "day": "2023-01-02",
+      "new_accounts": 7
+    },
+    {
+      "day": "2023-01-03",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-04",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-05",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-06",
+      "new_accounts": 8
+    },
+    {
+      "day": "2023-01-07",
+      "new_accounts": 5
+    },
+    {
+      "day": "2023-01-08",
+      "new_accounts": 5
+    },
+    {
+      "day": "2023-01-09",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-10",
+      "new_accounts": 5
+    },
+    {
+      "day": "2023-01-11",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-12",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-13",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-14",
+      "new_accounts": 10
+    },
+    {
+      "day": "2023-01-15",
+      "new_accounts": 8
+    },
+    {
+      "day": "2023-01-16",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-17",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-18",
+      "new_accounts": 5
+    },
+    {
+      "day": "2023-01-19",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-20",
+      "new_accounts": 5
+    },
+    {
+      "day": "2023-01-21",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-22",
+      "new_accounts": 10
+    },
+    {
+      "day": "2023-01-23",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-24",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-25",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-26",
+      "new_accounts": 10
+    },
+    {
+      "day": "2023-01-27",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-28",
+      "new_accounts": 6
+    },
+    {
+      "day": "2023-01-29",
+      "new_accounts": 9
+    },
+    {
+      "day": "2023-01-30",
+      "new_accounts": 10
+    }
+  ],
+  "messages": [
+    {
+      "day": "2023-01-01",
+      "total_messages": 5,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-02",
+      "total_messages": 10,
+      "anon_messages": "6"
+    },
+    {
+      "day": "2023-01-03",
+      "total_messages": 8,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-04",
+      "total_messages": 7,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-05",
+      "total_messages": 7,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-06",
+      "total_messages": 5,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-07",
+      "total_messages": 10,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-08",
+      "total_messages": 6,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-09",
+      "total_messages": 10,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-10",
+      "total_messages": 6,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-11",
+      "total_messages": 6,
+      "anon_messages": "5"
+    },
+    {
+      "day": "2023-01-12",
+      "total_messages": 10,
+      "anon_messages": "2"
+    },
+    {
+      "day": "2023-01-13",
+      "total_messages": 5,
+      "anon_messages": "1"
+    },
+    {
+      "day": "2023-01-14",
+      "total_messages": 5,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-15",
+      "total_messages": 5,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-16",
+      "total_messages": 6,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-17",
+      "total_messages": 5,
+      "anon_messages": "2"
+    },
+    {
+      "day": "2023-01-18",
+      "total_messages": 9,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-19",
+      "total_messages": 10,
+      "anon_messages": "5"
+    },
+    {
+      "day": "2023-01-20",
+      "total_messages": 5,
+      "anon_messages": "1"
+    },
+    {
+      "day": "2023-01-21",
+      "total_messages": 6,
+      "anon_messages": "3"
+    },
+    {
+      "day": "2023-01-22",
+      "total_messages": 10,
+      "anon_messages": "5"
+    },
+    {
+      "day": "2023-01-23",
+      "total_messages": 8,
+      "anon_messages": "5"
+    },
+    {
+      "day": "2023-01-24",
+      "total_messages": 9,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-25",
+      "total_messages": 6,
+      "anon_messages": "4"
+    },
+    {
+      "day": "2023-01-26",
+      "total_messages": 5,
+      "anon_messages": "2"
+    },
+    {
+      "day": "2023-01-27",
+      "total_messages": 5,
+      "anon_messages": "2"
+    },
+    {
+      "day": "2023-01-28",
+      "total_messages": 6,
+      "anon_messages": "5"
+    },
+    {
+      "day": "2023-01-29",
+      "total_messages": 10,
+      "anon_messages": "7"
+    },
+    {
+      "day": "2023-01-30",
+      "total_messages": 7,
+      "anon_messages": "3"
+    }
+  ],
+  "topics": [
+    {
+      "day": "2023-01-01",
+      "new_topics": 4
+    },
+    {
+      "day": "2023-01-02",
+      "new_topics": 8
+    },
+    {
+      "day": "2023-01-03",
+      "new_topics": 4
+    },
+    {
+      "day": "2023-01-04",
+      "new_topics": 5
+    },
+    {
+      "day": "2023-01-05",
+      "new_topics": 4
+    },
+    {
+      "day": "2023-01-06",
+      "new_topics": 6
+    },
+    {
+      "day": "2023-01-07",
+      "new_topics": 8
+    },
+    {
+      "day": "2023-01-08",
+      "new_topics": 3
+    },
+    {
+      "day": "2023-01-09",
+      "new_topics": 3
+    },
+    {
+      "day": "2023-01-10",
+      "new_topics": 8
+    },
+    {
+      "day": "2023-01-11",
+      "new_topics": 7
+    },
+    {
+      "day": "2023-01-12",
+      "new_topics": 5
+    },
+    {
+      "day": "2023-01-13",
+      "new_topics": 7
+    },
+    {
+      "day": "2023-01-14",
+      "new_topics": 7
+    },
+    {
+      "day": "2023-01-15",
+      "new_topics": 3
+    },
+    {
+      "day": "2023-01-16",
+      "new_topics": 7
+    },
+    {
+      "day": "2023-01-17",
+      "new_topics": 4
+    },
+    {
+      "day": "2023-01-18",
+      "new_topics": 6
+    },
+    {
+      "day": "2023-01-19",
+      "new_topics": 5
+    },
+    {
+      "day": "2023-01-20",
+      "new_topics": 4
+    },
+    {
+      "day": "2023-01-21",
+      "new_topics": 3
+    },
+    {
+      "day": "2023-01-22",
+      "new_topics": 6
+    },
+    {
+      "day": "2023-01-23",
+      "new_topics": 6
+    },
+    {
+      "day": "2023-01-24",
+      "new_topics": 3
+    },
+    {
+      "day": "2023-01-25",
+      "new_topics": 3
+    },
+    {
+      "day": "2023-01-26",
+      "new_topics": 7
+    },
+    {
+      "day": "2023-01-27",
+      "new_topics": 6
+    },
+    {
+      "day": "2023-01-28",
+      "new_topics": 4
+    },
+    {
+      "day": "2023-01-29",
+      "new_topics": 7
+    },
+    {
+      "day": "2023-01-30",
+      "new_topics": 4
+    }
+  ]
+}

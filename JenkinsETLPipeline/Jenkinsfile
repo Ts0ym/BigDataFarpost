@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+    environment {
+        PATH = "/usr/local/bin:${env.PATH}"
+    }
+    triggers {
+        cron('H 0 * * *')
+    }
+    stages {
+        stage('Install Dependencies') {
+            steps {
+                echo 'Установка зависимостей...'
+                // Устанавливаем все модули из requirements.txt
+                sh 'pip3 install -r requirements.txt'
+            }
+        }
+        stage('Extract') {
+            steps {
+                echo 'Выполнение этапа Extract...'
+                sh 'python3 extract.py --start_date 2023-01-01 --end_date 2023-01-31'
+            }
+        }
+        stage('Transform') {
+            steps {
+                echo 'Выполнение этапа Transform...'
+                sh 'python3 transform.py'
+            }
+        }
+        stage('Load') {
+            steps {
+                echo 'Выполнение этапа Load...'
+                sh 'python3 load.py'
+            }
+        }
+    }
+    post {
+        always {
+            archiveArtifacts artifacts: 'aggregated_data.csv', allowEmptyArchive: true
+        }
+    }
+}
