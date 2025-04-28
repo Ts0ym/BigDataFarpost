@@ -1,0 +1,52 @@
+[
+  {
+    "code": "AMT",
+    "name": "American Tower",
+    "growth": "8.33%"
+  },
+  {
+    "code": "AIG",
+    "name": "American International Group",
+    "growth": "8.00%"
+  },
+  {
+    "code": "GOOG",
+    "name": "Alphabet C",
+    "growth": "7.76%"
+  },
+  {
+    "code": "AMGN",
+    "name": "Amgen",
+    "growth": "7.54%"
+  },
+  {
+    "code": "GOOGL",
+    "name": "Alphabet A",
+    "growth": "7.49%"
+  },
+  {
+    "code": "MMM",
+    "name": "3M",
+    "growth": "67.13%"
+  },
+  {
+    "code": "T",
+    "name": "AT&T",
+    "growth": "60.23%"
+  },
+  {
+    "code": "ADI",
+    "name": "Analog Devices",
+    "growth": "5.64%"
+  },
+  {
+    "code": "AJG",
+    "name": "Arthur J. Gallagher",
+    "growth": "36.38%"
+  },
+  {
+    "code": "MO",
+    "name": "Altria",
+    "growth": "33.65%"
+  }
+]
